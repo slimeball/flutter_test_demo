@@ -1,3 +1,4 @@
+// main page
 import 'package:flutter/material.dart';
 import '../subPage/weapon_shop.dart';
 
@@ -40,6 +41,84 @@ class _HomePageState extends State<HomePage> {
           // Respond to button press
         },
         child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
+      )),Container(
+          child: OutlinedButton(
+        onPressed: () {
+          // Respond to button press
+        },
+        child: Text("Corps Base"),
       )),
     ];
     return _buttonList;
@@ -49,9 +128,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Container(
       child: Scaffold(
-        appBar: AppBar(title: Text('Town')),
-        body: GridView.count(
-          crossAxisCount: 2,
+        body: Column(
           children: this._getButtonList(),
         ),
       ),
